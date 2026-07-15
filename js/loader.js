@@ -1,0 +1,1 @@
+(() => {const loader=document.getElementById('loader');const close=()=>{loader?.classList.add('is-hidden');document.body.classList.remove('is-loading')};window.addEventListener('load',()=>setTimeout(close,900));setTimeout(close,2800)})();

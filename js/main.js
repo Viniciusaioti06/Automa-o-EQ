@@ -1,0 +1,1 @@
+document.getElementById('year').textContent=new Date().getFullYear();const w=document.querySelector('.whatsapp-float');setTimeout(()=>w?.classList.add('is-expanded'),3500);setTimeout(()=>w?.classList.remove('is-expanded'),7800);

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Soluções em automação industrial, eletrificação, segurança, pneumática e hidráulica em Cascavel - PR.">
+  <title>Automação Equipamentos Industriais</title>
+  <link rel="icon" href="assets/images/brand/favicon.png">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="is-loading">
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7a11.8 11.8 0 0 0 5.6 1.4h.1C18.7 23.7 24 18.4 24 11.9c0-3.2-1.2-6.1-3.5-8.4Zm-8.3 18.2h-.1a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4a9.8 9.8 0 1 1 8.5 4.7Zm5.4-7.3c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6L9 6.8c-.2-.6-.6-.5-.8-.5h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.9 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 1.8-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.2-.3-.3-.6-.4Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2 9 6 9-6H3Zm18 10V9l-9 6-9-6v8h18Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 23s8-6.3 8-14a8 8 0 1 0-16 0c0 7.7 8 14 8 14Zm0-10.5A3.5 3.5 0 1 1 12 5a3.5 3.5 0 0 1 0 7.5Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm11.3 1.5a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8h3V4.5c-.5-.1-1.8-.2-3.4-.2-3.3 0-5.6 2-5.6 5.8V13H4v4h4v7h5v-7h3.5l.6-4H13v-2.5C13 9.3 13.3 8 14 8Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M4.5 3A2.5 2.5 0 1 1 2 5.5 2.5 2.5 0 0 1 4.5 3ZM2.4 9h4.2v13H2.4V9Zm6.6 0h4v1.8h.1c.6-1.1 2-2.3 4.2-2.3 4.5 0 5.3 3 5.3 6.8V22h-4.2v-6c0-1.4 0-3.3-2-3.3s-2.3 1.6-2.3 3.2V22H9V9Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 2h2.6l1.3 5-2 1.6a16 16 0 0 0 6.9 6.9l1.6-2 5 1.3v2.6A4.6 4.6 0 0 1 17.4 22C8.9 22 2 15.1 2 6.6A4.6 4.6 0 0 1 6.6 2Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h12.2l-4.6-4.6L14 6l7 7-7 7-1.4-1.4 4.6-4.6H5v-2Z"/></symbol>
+  </svg>
+  <div class="loader" id="loader" role="status" aria-label="Carregando o site">
+    <div class="loader__energy"></div>
+    <img src="assets/images/brand/logo-automacao.png" alt="Automação Equipamentos Industriais" class="loader__logo">
+    <p>Tecnologia que movimenta a indústria.</p>
+    <div class="loader__line"><span></span></div>
+  </div>
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Ir ao início">
+        <img src="assets/images/brand/logo-automacao.png" alt="Automação">
+        <span><strong>Automação</strong><small>Equipamentos Industriais</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#solucoes">Soluções</a><a href="#empresa">Empresa</a><a href="#marcas">Marcas</a><a href="#contato">Contato</a>
+        <a class="button button--small" href="https://wa.me/5545999359260?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener">Solicitar orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="orb orb--one" aria-hidden="true"></div><div class="orb orb--two" aria-hidden="true"></div>
+      <div class="container hero__layout">
+        <div class="hero__content reveal">
+          <span class="eyebrow"><i></i> Automação industrial em Cascavel</span>
+          <h1>Soluções que conectam <em>tecnologia</em>, eficiência e segurança.</h1>
+          <p>Equipamentos, engenharia e suporte técnico para modernizar processos industriais com confiança e precisão.</p>
+          <div class="hero__actions">
+            <a href="#contato" class="button magnetic">Falar com um especialista <span>↗</span></a>
+            <a href="#solucoes" class="text-link">Conhecer soluções <span>↓</span></a>
+          </div>
+          <div class="hero__trust">
+            <div><strong class="counter" data-count="18">0</strong><span>+ anos de experiência</span></div>
+            <div><strong class="counter" data-count="8">0</strong><span>fabricantes parceiros</span></div>
+            <div><strong>PR</strong><span>atendimento regional</span></div>
+          </div>
+        </div>
+        <div class="hero__visual reveal reveal--right" aria-label="Painel ilustrativo de monitoramento industrial">
+          <div class="machine-card tilt-card">
+            <div class="machine-card__top"><span>Status operacional</span><b><i></i> Sistema online</b></div>
+            <div class="machine-card__main">
+              <div class="gauge"><svg viewBox="0 0 160 90"><path d="M18 78a64 64 0 0 1 124 0"/><path class="gauge__value" d="M18 78a64 64 0 0 1 124 0"/></svg><strong>94<small>%</small></strong><span>Eficiência</span></div>
+              <div class="metrics"><div><span>Produção</span><b>1.248</b><small>unid./h</small></div><div><span>Consumo</span><b>72.4</b><small>kWh</small></div></div>
+            </div>
+            <div class="signal-chart"><span style="--h:30%"></span><span style="--h:52%"></span><span style="--h:42%"></span><span style="--h:68%"></span><span style="--h:58%"></span><span style="--h:82%"></span><span style="--h:72%"></span><span style="--h:91%"></span><span style="--h:78%"></span><span style="--h:86%"></span></div>
+            <div class="machine-card__footer"><span><i class="pulse"></i> Monitoramento em tempo real</span><span>Atualizado agora</span></div>
+          </div>
+          <div class="float-chip float-chip--a"><span>⚡</span><b>Alta performance</b></div>
+          <div class="float-chip float-chip--b"><span>✓</span><b>Segurança integrada</b></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#solucoes"><span></span>Role para explorar</a>
+    </section>
+
+    <section class="section solutions" id="solucoes">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow"><i></i> O que fazemos</span><h2>Engenharia aplicada a cada etapa da indústria.</h2><p>Do componente ao sistema completo, entregamos soluções orientadas à necessidade real da operação.</p></div>
+        <div class="solution-list">
+          <a class="solution-item reveal" href="#contato" data-subject="Automação e controle"><span class="solution-item__number">01<i></i></span><div class="solution-item__icon">⌁</div><div><h3>Automação e controle</h3><p>CLPs, IHMs, inversores, servoacionamentos e integração de sistemas.</p></div><span class="solution-item__action">Falar sobre esta solução <svg><use href="#i-arrow"/></svg></span></a>
+          <a class="solution-item reveal" href="#contato" data-subject="Eletrificação industrial"><span class="solution-item__number">02<i></i></span><div class="solution-item__icon">ϟ</div><div><h3>Eletrificação industrial</h3><p>Proteção, comando, distribuição elétrica e componentes para painéis.</p></div><span class="solution-item__action">Solicitar orientação <svg><use href="#i-arrow"/></svg></span></a>
+          <a class="solution-item reveal" href="#contato" data-subject="Segurança de máquinas"><span class="solution-item__number">03<i></i></span><div class="solution-item__icon">◎</div><div><h3>Segurança de máquinas</h3><p>Sensores, relés e controladores para adequação e automação segura.</p></div><span class="solution-item__action">Avaliar aplicação <svg><use href="#i-arrow"/></svg></span></a>
+          <a class="solution-item reveal" href="#contato" data-subject="Pneumática e hidráulica"><span class="solution-item__number">04<i></i></span><div class="solution-item__icon">↔</div><div><h3>Pneumática e hidráulica</h3><p>Atuadores, válvulas, vácuo e soluções de movimentação industrial.</p></div><span class="solution-item__action">Encontrar componentes <svg><use href="#i-arrow"/></svg></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section statement" id="empresa">
+      <div class="container statement__grid">
+        <div class="statement__sticky reveal"><span class="eyebrow eyebrow--light"><i></i> Sobre a empresa</span><h2>Tecnologia não é apenas o que vendemos. É como pensamos cada solução.</h2></div>
+        <div class="statement__content reveal">
+          <p>Atendemos indústrias que buscam mais produtividade, confiabilidade e segurança. Nossa atuação combina conhecimento técnico, fabricantes reconhecidos e proximidade no atendimento.</p>
+          <div class="principles"><div><span>01</span><h3>Diagnóstico técnico</h3><p>Entendemos o processo antes de indicar qualquer solução.</p></div><div><span>02</span><h3>Escolha inteligente</h3><p>Selecionamos produtos adequados à aplicação e ao investimento.</p></div><div><span>03</span><h3>Suporte próximo</h3><p>Acompanhamento da especificação ao pós-venda.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section partners" id="marcas">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal"><div><span class="eyebrow"><i></i> Parceiros tecnológicos</span><h2>Grandes marcas. Uma única equipe para orientar sua escolha.</h2></div><p>Trabalhamos com fabricantes reconhecidos em automação, eletrificação, segurança, hidráulica, pneumática e movimentação.</p></div>
+        <div class="partners-grid">
+          <a class="partner-card reveal" href="https://delta-electronics.com.br/produtos/" target="_blank" rel="noopener"><img src="assets/images/partners/delta.webp" alt="Delta"><span>Automação e acionamentos</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://new.abb.com/low-voltage/pt" target="_blank" rel="noopener"><img src="assets/images/partners/abb.webp" alt="ABB"><span>Eletrificação e controle</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://www.pilz.com/pt-BR/products" target="_blank" rel="noopener"><img src="assets/images/partners/pilz.webp" alt="Pilz"><span>Segurança industrial</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://www.connectwell.com/Global/products.aspx?lang=pt%C2%AE=br" target="_blank" rel="noopener"><img src="assets/images/partners/connectwell.webp" alt="Connectwell"><span>Conectividade elétrica</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://www.atos.com/en-it/range-overview" target="_blank" rel="noopener"><img src="assets/images/partners/atos.webp" alt="Atos"><span>Hidráulica de alto desempenho</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://shop.camozzi.com/store/camozzi/br/en" target="_blank" rel="noopener"><img src="assets/images/partners/camozzi.webp" alt="Camozzi"><span>Pneumática e movimento</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://www.piab.com/pt-br/produtos-solucoes" target="_blank" rel="noopener"><img src="assets/images/partners/piab.webp" alt="Piab"><span>Automação a vácuo</span><b>Visitar fabricante ↗</b></a>
+          <a class="partner-card reveal" href="https://www.mga.com.br/produtos" target="_blank" rel="noopener"><img src="assets/images/partners/mga.webp" alt="MGA"><span>Válvulas industriais</span><b>Visitar fabricante ↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="contact__circuit" aria-hidden="true"></div>
+      <div class="container contact__grid">
+        <div class="contact__intro reveal"><span class="eyebrow"><i></i> Fale com nossos especialistas</span><h2>Conte o seu desafio. Nós ajudamos a transformar a necessidade em solução.</h2><p>Escolha o canal mais conveniente ou envie os detalhes pelo formulário. A mensagem será organizada e encaminhada diretamente pelo WhatsApp.</p>
+          <div class="contact-cards">
+            <a class="contact-card" href="https://wa.me/5545999359260" target="_blank" rel="noopener"><span class="contact-card__icon"><svg><use href="#i-whatsapp"/></svg></span><span class="contact-card__body"><small>Atendimento rápido</small><strong>WhatsApp</strong><em>+55 45 99935-9260</em></span><span class="contact-card__arrow"><svg><use href="#i-arrow"/></svg></span></a>
+            <a class="contact-card" href="mailto:contato@automacaoind.com.br"><span class="contact-card__icon"><svg><use href="#i-mail"/></svg></span><span class="contact-card__body"><small>Propostas e informações</small><strong>E-mail</strong><em>contato@automacaoind.com.br</em></span><span class="contact-card__arrow"><svg><use href="#i-arrow"/></svg></span></a>
+            <a class="contact-card" href="https://www.google.com/maps/search/?api=1&query=R.%20Carlos%20Chagas%2C%201176%2C%20Cascavel%20PR" target="_blank" rel="noopener"><span class="contact-card__icon"><svg><use href="#i-pin"/></svg></span><span class="contact-card__body"><small>Visite nossa unidade</small><strong>Localização</strong><em>R. Carlos Chagas, 1176 — Cascavel, PR</em></span><span class="contact-card__arrow"><svg><use href="#i-arrow"/></svg></span></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="quoteForm">
+          <div class="form-heading field-full"><span>Solicitação de atendimento</span><h3>Vamos entender a sua necessidade</h3><p>Preencha os campos abaixo. Você poderá revisar a mensagem antes de enviá-la no WhatsApp.</p></div>
+          <label class="form-field"><span>Seu nome <b>*</b></span><div class="input-shell"><input type="text" name="name" placeholder="Ex.: Roberto Silva" autocomplete="name" required></div></label>
+          <label class="form-field"><span>Empresa</span><div class="input-shell"><input type="text" name="company" placeholder="Ex.: Indústria ABC" autocomplete="organization"></div></label>
+          <label class="form-field"><span>Telefone</span><div class="input-shell"><input type="tel" name="phone" placeholder="(45) 99999-9999" autocomplete="tel" inputmode="tel"></div></label>
+          <label class="form-field"><span>Solução de interesse <b>*</b></span><div class="input-shell input-shell--select"><select name="subject" required><option value="" disabled selected>Selecione uma opção</option><option>Automação e controle</option><option>Eletrificação industrial</option><option>Segurança de máquinas</option><option>Pneumática e hidráulica</option><option>Produtos e orçamento</option></select></div></label>
+          <label class="form-field field-full"><span>Conte um pouco sobre o projeto</span><div class="input-shell"><textarea name="message" rows="5" maxlength="600" placeholder="Ex.: precisamos modernizar um painel, especificar um inversor ou adequar a segurança de uma máquina..."></textarea><small class="char-counter"><b id="charCount">0</b>/600</small></div></label>
+          <div class="form-footer field-full"><span><i></i> Atendimento humano e direcionado</span><button type="submit" class="button magnetic">Preparar mensagem <svg><use href="#i-whatsapp"/></svg></button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__top">
+      <div class="footer__brand"><a href="#inicio" class="brand brand--footer"><img src="assets/images/brand/logo-automacao.png" alt="Automação"><span><strong>Automação</strong><small>Equipamentos Industriais</small></span></a><p>Soluções técnicas para uma indústria mais eficiente, segura e conectada.</p></div>
+      <div><h3>Navegação</h3><a href="#solucoes">Soluções</a><a href="#empresa">Empresa</a><a href="#marcas">Marcas</a><a href="#contato">Contato</a></div>
+      <div><h3>Atendimento</h3><a href="tel:+5545999359260">+55 45 99935-9260</a><a href="mailto:contato@automacaoind.com.br">contato@automacaoind.com.br</a><span>Seg. a sex. — horário comercial</span></div>
+      <div><h3>Conecte-se</h3><div class="socials">
+        <a aria-label="Instagram" title="Instagram" href="https://www.instagram.com/automacaoindustrialcascavel" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg></a>
+        <a aria-label="Facebook" title="Facebook" href="https://www.facebook.com/profile.php?id=100093710353981&mibextid=ZbWKwL" target="_blank" rel="noopener"><svg><use href="#i-facebook"/></svg></a>
+        <a aria-label="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/automa%C3%A7%C3%A3o-equipamentos-industriais-pr/" target="_blank" rel="noopener"><svg><use href="#i-linkedin"/></svg></a>
+        <a aria-label="WhatsApp" title="WhatsApp" href="https://wa.me/5545999359260" target="_blank" rel="noopener"><svg><use href="#i-whatsapp"/></svg></a>
+      </div></div>
+    </div>
+    <div class="container footer__bottom"><span>© <span id="year"></span> Automação Equipamentos Industriais.</span></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5545999359260?text=Olá!%20Gostaria%20de%20um%20orçamento." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><span class="whatsapp-float__icon"><svg><use href="#i-whatsapp"/></svg></span><span class="whatsapp-float__text">Pedir orçamento</span></a>
+  <button class="back-top" id="backTop" aria-label="Voltar ao topo">↑</button>
+  <script src="js/loader.js"></script><script src="js/navigation.js"></script><script src="js/animations.js"></script><script src="js/forms.js"></script><script src="js/main.js"></script>
+</body></html>

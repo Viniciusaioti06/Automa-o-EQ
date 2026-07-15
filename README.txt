@@ -1,22 +1,12 @@
-AUTOMAÇÃO EQUIPAMENTOS INDUSTRIAIS — VERSÃO TESTE 3
+AUTOMAÇÃO EQUIPAMENTOS INDUSTRIAIS — VERSÃO TESTE 5
 
-Estrutura:
-- index.html: página principal
-- assets/images/: logo, logos de parceiros e elementos visuais
-- css/: estilos separados por finalidade
-- js/: funcionalidades separadas (loader, navegação, animações e formulário)
+Correções principais desta revisão:
+- menu mobile reconstruído para ocupar toda a tela sem sobreposição com o conteúdo;
+- correção do conflito entre backdrop-filter do cabeçalho e elementos fixos;
+- bloqueio seguro da rolagem enquanto o menu estiver aberto;
+- fechamento por link, tecla Esc e mudança para desktop;
+- navegação mobile com hierarquia visual e áreas de toque maiores;
+- animações mobile suavizadas e efeitos de desktop removidos em telas de toque;
+- refinamentos de responsividade no hero e na lista de soluções.
 
-Para visualizar, abra index.html em um navegador moderno.
-
-Observações:
-- Esta é uma versão demonstrativa de página única.
-- Textos, números e imagens devem ser validados antes da publicação.
-- O formulário abre uma mensagem pronta no WhatsApp.
-- Os links de parceiros e redes sociais foram inseridos conforme fornecidos.
-
-VERSÃO 4
-- Linhas de soluções totalmente clicáveis e conectadas ao formulário.
-- Texto de ação nas setas para indicar o destino.
-- Cards de contato com ícones SVG próprios e animação de pulso/energia.
-- Formulário redesenhado, máscara de telefone, contador de caracteres e preenchimento automático do assunto.
-- Ícones SVG profissionais no rodapé e no botão flutuante do WhatsApp.
+Abra index.html no navegador.
